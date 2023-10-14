@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+#header {
+	margin: 0 auto;
+	width: 60%;
+	padding: 10px 0px;
+}
+
+#page-container {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+#table-container {
+	width: 60%;
+	display: flex;
+	align-items: center;
+}
+
+#form-container {
+ 	display: flex;
+ 	flex-direction: column;
+  	justify-content: center;
+	width: 40%;
+}
+
+#form-container h3 {
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+h1, h3 {
+	color: #0e5796;
+}
+
+
+.string-input {
+	width: 70%;
+}
+
+.number-input {
+	width: 15%;
+}
+
+.error-message {
+	color: darkorange;
+}
+
+#edit-header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#user-actions {
+	display: flex;
+}
+
+#edit-btn {
+	margin-right: 5px;
+}
+
+#delete-btn {
+	margin-left: 5px;
+}
